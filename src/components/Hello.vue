@@ -74,7 +74,17 @@ export default {
                   parentId: 6,
                   name: '测试7',
                   age: 27,
+                  sex: '男',
+
+                  children: [
+                {
+                  id: 10,
+                  parentId: 6,
+                  name: '测试9',
+                  age: 27,
                   sex: '男'
+                }
+              ]
                 }
               ]
             }
